@@ -4,9 +4,37 @@
 #include <iostream>
 using namespace std;
 
+string c = "a + b";
+string d = " = ";
+int a = 3;
+int b = 4;
+
+string name = "";
+string ID = "";
+
 int main()
 {
-    cout << "2 + 2" << " = " << "4";
+    
+    cout << "Enter name: ";
+    cin >> name;
+
+    if (name == "Rob")
+    {
+        cout << "Enter ID: ";
+        cin >> ID;
+        if (ID == "w015175p")
+        {
+            cout << ("Correct");
+        }
+        else
+        {
+            cout << ("Error");
+        }
+    }
+    else
+    {
+        cout << ("Error");
+    }
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
