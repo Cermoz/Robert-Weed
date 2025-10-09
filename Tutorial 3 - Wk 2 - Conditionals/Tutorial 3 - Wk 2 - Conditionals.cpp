@@ -2,8 +2,9 @@
 //
 
 #include <iostream>
-using namespace std;
 int one = 1;
+using namespace std;
+
 
 int main()
 {
@@ -75,21 +76,21 @@ int main()
             cout << "failed!" << endl; 
     }
     
-    string username = "admin";
-    string password = "123";
-    string usernameattempt = "";
-    string passwordattempt = "";
+    //string username = "admin";
+    //string password = "123";
+    //string usernameattempt = "";
+    //string passwordattempt = "";
 
-    cout << "Enter your username: ";
-    cin >> usernameattempt;
-    cout << endl << "Enter your password: ";
-    cin >> passwordattempt;
-    if (passwordattempt == password && usernameattempt == username) {
-        cout << "Access granted" << endl;
-    }
-    else {
-        cout << "Access denied" << endl;
-    }
+    //cout << "Enter your username: ";
+    //cin >> usernameattempt;
+    //cout << endl << "Enter your password: ";
+    //cin >> passwordattempt;
+    //if (passwordattempt == password && usernameattempt == username) {
+    //    cout << "Access granted" << endl;
+    //}
+    //else {
+    //    cout << "Access denied" << endl;
+    //}
 
     float x = 0.0f;
     float y = 0.0f;
